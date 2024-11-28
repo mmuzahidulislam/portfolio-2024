@@ -13,104 +13,110 @@
             <h1 class="hero-title">Md Muzahidul Islam</h1>
             <p class="hero-subtitle">Aspiring Deep Learning Engineer | AI Enthusiast | Problem Solver</p>
             <div class="hero-buttons">
-                <a href="#projects" class="btn hero-btn">View My Projects</a>
-                <a href="#contact" class="btn btn-secondary hero-btn-secondary">Contact Me</a>
+                <a href="#projects" class="btn btn-primary">View My Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
             </div>
         </div>
     </header>
 
     <!-- About Me Section -->
-    <section id="about" class="about">
+    <section id="about" class="section about">
         <div class="container about-container">
             <h2 class="section-title">About Me</h2>
-            <p class="about-text">
-                I am a final-year Software Engineering student at Zhengzhou University, focusing on deep learning,
-                machine learning, and software development. Passionate about solving real-world problems with AI, I aim
-                to deepen my expertise through advanced research in neural networks and computer vision.
+            <p class="section-text">
+                I am a final-year Software Engineering student at Zhengzhou University, specializing in deep learning,
+                machine learning, and software development. My goal is to contribute innovative AI solutions to real-world
+                challenges while advancing my expertise through academic research.
             </p>
         </div>
     </section>
 
     <!-- Education Section -->
-    <section id="education" class="education">
+    <section id="education" class="section education">
         <div class="container education-container">
             <h2 class="section-title">Education</h2>
             <ul class="education-list">
                 <li class="education-item">
-                    <h3 class="education-title">Undergraduate: Zhengzhou University (2021 – 2024)</h3>
-                    <p class="education-details">Software Engineering | CGPA: 3.29</p>
-                    <a href="https://www.zzu.edu.cn/" target="_blank" class="education-link">Visit University</a>
+                    <h3>Undergraduate: Zhengzhou University (2021 – 2024)</h3>
+                    <p>Software Engineering | CGPA: 3.29</p>
+                    <a href="https://www.zzu.edu.cn/" target="_blank" class="link">Visit University</a>
                 </li>
                 <li class="education-item">
-                    <h3 class="education-title">Higher Secondary: Shaheed Muktijoddha Mahabidyalaya (2017 – 2020)</h3>
-                    <p class="education-details">Science | CGPA: 5.00</p>
-                    <a href="http://www.smcollegetala.edu.bd/" target="_blank" class="education-link">Visit College</a>
+                    <h3>Higher Secondary: Shaheed Muktijoddha Mahabidyalaya (2017 – 2020)</h3>
+                    <p>Science | CGPA: 5.00</p>
+                    <a href="http://www.smcollegetala.edu.bd/" target="_blank" class="link">Visit College</a>
                 </li>
             </ul>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container skills-container">
-            <h2 class="section-title">Skills</h2>
-            <ul class="skills-list">
-                <li class="skills-item"><strong>Programming & Libraries:</strong> Python, MATLAB, NumPy, Pandas, Seaborn, Sklearn</li>
-                <li class="skills-item"><strong>Tools & IDEs:</strong> Visual Studio, PyCharm, Jupyter Notebook, Git, Android Studio</li>
-                <li class="skills-item"><strong>Technologies:</strong> Streamlit, SQL, Java, HTML, CSS</li>
-            </ul>
+    <!-- Skills Section -->
+<section id="skills" class="section skills">
+    <div class="container skills-container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skills-category">
+                <h3>Programming Languages</h3>
+                <p>Python, MATLAB, SQL, Java, HTML, CSS</p>
+            </div>
+            <div class="skills-category">
+                <h3>Machine Learning</h3>
+                <p>Ensemble Algorithms (Bagging, Random Forest, Boosting: AdaBoost, GradientBoosting, XGBoost), Deploying with Streamlit</p>
+            </div>
+            <div class="skills-category">
+                <h3>Tools & Technologies</h3>
+                <p>Git version control, Linux Command Line, Atlassian Stack (Jira, Confluence), Notion</p>
+            </div>
+            <div class="skills-category">
+                <h3>Visualization Libraries</h3>
+                <p>NumPy, Pandas, Seaborn, Matplotlib, Sklearn</p>
+            </div>
         </div>
+    </div>
+</section>
+
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects">
+    <section id="projects" class="section projects">
         <div class="container projects-container">
             <h2 class="section-title">Projects</h2>
-            <div class="project-item">
-                <h3 class="project-title">Movie Recommendation System</h3>
-                <p class="project-details">Content-based recommendation system fetching movie posters via the TMDB API.</p>
-                <a href="https://z-movie-recommendation-system.streamlit.app/" target="_blank" class="project-link">Live Demo</a>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Movie Recommendation System</h3>
+                    <p>Content-based recommendation system using TMDB API.</p>
+                    <a href="https://z-movie-recommendation-system.streamlit.app/" target="_blank" class="btn btn-small">View Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>Healthcare Premium Prediction</h3>
+                    <p>Predicts health insurance claims for better resource allocation.</p>
+                    <a href="https://ml-project-helthcare-premium.streamlit.app/" target="_blank" class="btn btn-small">View Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>Credit Risk Modelling</h3>
+                    <p>Fraudulent credit card transaction detection using ML algorithms.</p>
+                    <a href="https://ml-project-credit-risk-m.streamlit.app/" target="_blank" class="btn btn-small">View Demo</a>
+                </div>
             </div>
-            <div class="project-item">
-                <h3 class="project-title">Healthcare Premium Prediction</h3>
-                <p class="project-details">Predicts health insurance claims for better resource allocation.</p>
-                <a href="https://ml-project-helthcare-premium.streamlit.app/" target="_blank" class="project-link">Live Demo</a>
-            </div>
-            <div class="project-item">
-                <h3 class="project-title">Credit Risk Modelling</h3>
-                <p class="project-details">Fraudulent credit card transaction detection using ML algorithms.</p>
-                <a href="https://ml-project-credit-risk-m.streamlit.app/" target="_blank" class="project-link">Live Demo</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Research Interests Section -->
-    <section id="research" class="research">
-        <div class="container research-container">
-            <h2 class="section-title">Research Interests</h2>
-            <p class="research-text">
-                Artificial Intelligence fields: Deep Learning, Computer Vision, Multimodal Learning, Reinforcement Learning, XAI, AR & VR
-            </p>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section id="contact" class="section contact">
         <div class="container contact-container">
             <h2 class="section-title">Contact</h2>
             <ul class="contact-list">
-                <li class="contact-item"><strong>Phone:</strong> (+86) 13949121424</li>
-                <li class="contact-item"><strong>Email:</strong> muzahidulislam.aucin@gamill.com</li>
-                <li class="contact-item"><strong>WeChat:</strong> mmuzahidul_islam</li>
-                <li class="contact-item"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/muzahidul-islam/" target="_blank" class="contact-link">muzahidul-islam</a></li>
-                <li class="contact-item"><strong>Address:</strong>  High-tech Zone, Zhengzhou, China</li>
+                <li><strong>Phone:</strong> (+86) 13949121424</li>
+                <li><strong>Email:</strong> muzahidulislam.aucin@gamill.com</li>
+                <li><strong>WeChat:</strong> mmuzahidul_islam</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/muzahidul-islam/" target="_blank" class="link">Visit Profile</a></li>
             </ul>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
-        <p class="footer-text">&copy; 2024 Md Muzahidul Islam | All Rights Reserved</p>
+        <p>&copy; 2024 Md Muzahidul Islam | All Rights Reserved</p>
     </footer>
 </body>
 </html>

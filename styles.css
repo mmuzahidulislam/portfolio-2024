@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Hero Section */
+.hero {
+  background: url('portFolio-image/campus.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.hero-container .hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-container .hero-subtitle {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.hero-container .hero-buttons .btn {
+  padding: 0.7rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  background: #007BFF;
+  color: white;
+}
+
+.hero-container .hero-buttons .btn-secondary {
+  background: #6C757D;
+}
+
+/* Section Title */
+.section-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* About Section */
+.about-container .about-text {
+  text-align: center;
+}
+
+/* Education Section */
+.education-container .education-list {
+  list-style: none;
+  padding: 0;
+}
+
+.education-container .education-item {
+  margin-bottom: 1.5rem;
+}
+
+.education-container .education-link {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* Skills Section */
+.skills-container .skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-container .skills-item {
+  margin-bottom: 1rem;
+}
+
+/* Projects Section */
+.projects-container .project-item {
+  margin-bottom: 1.5rem;
+}
+
+.projects-container .project-link {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* Research Section */
+.research-container .research-text {
+  text-align: center;
+}
+
+/* Contact Section */
+.contact-container .contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-container .contact-item {
+  margin-bottom: .5rem;
+}
+
+.contact-container .contact-link {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* Footer */
+.footer .footer-text {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+}

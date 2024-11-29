@@ -125,6 +125,15 @@ body {
   line-height: 1.6;
   color: #555; /* Subtle contrast for text */
 }
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #F97316;
+  
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {

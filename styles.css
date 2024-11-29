@@ -47,7 +47,7 @@ body {
 
 /* Individual sections have unique design elements */
 .hero {
-  background: url('portFolio-image/background/cover.png') center/cover no-repeat;
+  background: url('portFolio-image/document/cover.png') center/cover no-repeat;
   margin-bottom: auto;
   padding: 35px 0;
 }

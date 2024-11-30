@@ -32,8 +32,7 @@ body {
   background: #60AFFF;
   color: whitesmoke;
   text-decoration: none;
-  border-radius: 5px;
-  
+  border-radius: 5px; 
 }
 
 .hero-buttons .btn-secondary {
@@ -50,12 +49,6 @@ body {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
 }
 
-/* On click (when button is active) */
-.hero-buttons .btn-secondary:active {
-  background-color: #FF4500; /* Darker shade when clicked */
-  transform: scale(1.05); /* Slightly shrink the button to simulate press effect */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); /* Reduced shadow for the pressed effect */
-}
 
 
 
@@ -373,9 +366,7 @@ body {
   transition: background 0.3s ease;
 }
 
-.project-card .btn:hover {
-  background: #FF5722;
-}
+
 
 .project-card .btn-secondary {
   display: inline-block;

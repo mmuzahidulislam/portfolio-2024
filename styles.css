@@ -415,81 +415,15 @@ body {
 .additional-projects {
   margin-top: 2rem;
   background: #f9f9f9;
-  border: #1e1e1e;
-
-
-
-
-  /* Contact Section */
-.contact-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.contact-header {
-  margin-bottom: 1.5rem;
+  border: #cf6e3d;
   
-}
+.aca-project-title{
+  color: #d06e40;
 
-.section-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #333;
-  margin: 0;
-  padding-left: 0.5rem;
-  border-left: 5px solid #007bff;
-}
-
-.contact-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-items: flex-start;
-}
-
-.contact-info {
-  flex: 1;
-  min-width: 250px;
-}
-
-.contact-list {
-  list-style: none;
-  padding: 0;
-  font-size: 1.1rem;
-  color: #555;
-  line-height: 1.8;
-}
-
-.contact-list li {
-  margin-bottom: 0.8rem;
-}
-
-.contact-list li strong {
-  color: #007bff;
-  font-weight: 600;
-}
-
-.contact-list a {
-  color: #007bff;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.contact-list a:hover {
-  color: #0056b3;
-}
-
-.contact-cta {
-  flex: 1;
-  min-width: 250px;
-  text-align: center;
-}
-.section-title {
-  font-size: 2rem;
+  .project-date{
+    color: #60787a;
+    font-size: 80%;
+  }
 }
 }
 

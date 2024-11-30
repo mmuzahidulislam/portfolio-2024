@@ -29,22 +29,28 @@ body {
   display: inline-block;
   padding: 0.7rem 1.5rem;
   margin: 0.5rem;
-  background: #007bff;
+  background: #60AFFF;
   color: whitesmoke;
   text-decoration: none;
   border-radius: 5px;
+  
 }
 
 .hero-buttons .btn-secondary {
-  background: #F97316;
+  background-color: #FF5722; /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge the button */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a shadow */
 }
+
+
+
 
 
 
 
 /* Individual sections have unique design elements */
 .hero {
-  background: url('portFolio-image/cover.png') center/cover no-repeat;
+  background: url('portFolio-image/document/cover.png') center/cover no-repeat;
   margin-bottom: auto;
   padding: 35px 0;
 }
@@ -122,23 +128,14 @@ body {
   line-height: 1.6;
   color: #555; /* Subtle contrast for text */
 }
-
-
-
 .btn-download {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: #F97316;
+  color: #60AFFF;
   
 }
-
-
-
-
-
-
 
 
 /* Responsive Design */
@@ -341,19 +338,19 @@ body {
 .project-card h3 {
   margin-top: 1rem;
   font-size: 1.5rem;
-  color: #007bff;
+  color: #333333;
 }
 
 .project-card p {
   font-size: 1rem;
-  color: #555;
+  color: #666666;
 }
 
 .project-card .btn {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  background: #007bff;
+  background: #FF7F50;
   color: white;
   text-decoration: none;
   border-radius: 25px;
@@ -362,10 +359,8 @@ body {
 }
 
 .project-card .btn:hover {
-  background: #0056b3;
+  background: #FF5722;
 }
-
-
 
 .project-card .btn-secondary {
   display: inline-block;
@@ -382,18 +377,14 @@ body {
 
 .project-card .btn-secondary:hover {
   background: #e2e6ea;
-  color: #007bff;
-  border-color: #007bff;
+  color: #FF7F50;
+  border-color: #FF7F50;
 }
-.project-card .project-image {
-  width: 100%; /* Makes the image responsive */
-  height: auto; /* Maintains aspect ratio */
-  border-radius: 10px; /* Optional: Adds rounded corners to the image */
-  margin-bottom: 1rem; /* Adds spacing between the image and the project title */
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow effect */
+.project-card .btn {
+  display: block;
+  margin: 0.5rem auto; /* Add spacing between buttons */
+  text-align: center; /* Ensure text is centered in each button */
 }
-
-
 
 
 
@@ -424,81 +415,15 @@ body {
 .additional-projects {
   margin-top: 2rem;
   background: #f9f9f9;
-  border: #1e1e1e;
-
-
-
-
-  /* Contact Section */
-.contact-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.contact-header {
-  margin-bottom: 1.5rem;
+  border: #cf6e3d;
   
-}
+.aca-project-title{
+  color: #d06e40;
 
-.section-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #333;
-  margin: 0;
-  padding-left: 0.5rem;
-  border-left: 5px solid #007bff;
-}
-
-.contact-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-items: flex-start;
-}
-
-.contact-info {
-  flex: 1;
-  min-width: 250px;
-}
-
-.contact-list {
-  list-style: none;
-  padding: 0;
-  font-size: 1.1rem;
-  color: #555;
-  line-height: 1.8;
-}
-
-.contact-list li {
-  margin-bottom: 0.8rem;
-}
-
-.contact-list li strong {
-  color: #007bff;
-  font-weight: 600;
-}
-
-.contact-list a {
-  color: #007bff;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.contact-list a:hover {
-  color: #0056b3;
-}
-
-.contact-cta {
-  flex: 1;
-  min-width: 250px;
-  text-align: center;
-}
-.section-title {
-  font-size: 2rem;
+  .project-date{
+    color: #60787a;
+    font-size: 80%;
+  }
 }
 }
 
@@ -510,7 +435,7 @@ body {
 
 /* Footer Styling */
 .footer {
-  background-color: #e4f7f2; /* Soft pastel teal */
+  background-color: #e4f7f2; /* Soft pastel teal #*/
   color: #333; /* Neutral dark text */
   padding: 20px 15px; /* Smaller padding for a compact layout */
   text-align: center;
@@ -551,17 +476,17 @@ body {
 }
 
 .footer-socials a {
-  color: #007bff; /* Accent color to match links */
+  color: #7e7575; /* Accent color to match links */
   text-decoration: none;
   font-size: 0.9rem;
   padding: 5px 10px; /* Small padding for clickable area */
-  border: 1px solid #F97316; /* Button-style border */
+  border: 1px solid #9bc9d8; /* Button-style border */
   border-radius: 4px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .footer-socials a:hover {
-  background-color: #007bff; /* Background on hover */
+  background-color: #2d4a93; /* Background on hover */
   color: #fff; /* White text on hover */
 }
 
@@ -680,7 +605,7 @@ body {
 
 .research-list li {
   background: #f0f8ff; /* Light background for list items */
-  color: #007bff; /* Consistent branding color */
+  color: #4A90E2; /* Consistent branding color */
   padding: 10px 20px;
   border-radius: 8px;
   font-size: 0.95rem;
@@ -757,13 +682,13 @@ body {
 
 .hobby-title {
   font-size: 1.5rem;
-  color: #007bff; /* Accent color for titles */
+  color: #1F3C88; /* Accent color for titles */
   margin: 20px 0 10px 0;
 }
 
 .hobby-text {
   font-size: 1rem;
-  color: #555;
+  color: #666666;
   padding: 0 15px 20px 15px;
   line-height: 1.6;
 }
@@ -786,3 +711,5 @@ body {
       font-size: 0.95rem;
   }
 }
+
+

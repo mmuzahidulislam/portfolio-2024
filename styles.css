@@ -252,13 +252,13 @@ body {
 
 /* Publications Section */
 .publications-container {
-  padding: 3rem 2rem;
+  padding: 4rem 2rem; /* modify to it 3,2 after adding more publication */
   background: linear-gradient(135deg, #e9f4fc, #ffffff);
   background-color: #f5f5f5;
   border-radius: 15px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-  margin-top: 10rem;  /* Added margin to the top */
-  margin-bottom: 10rem;  /* Added margin to the bottom */
+  margin-top: 5rem;  /* Added margin to the top */
+  margin-bottom: 5rem;  /* Added margin to the bottom */
 }
 
 .section-title {
